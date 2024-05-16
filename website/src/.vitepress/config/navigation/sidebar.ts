@@ -41,6 +41,14 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
           link: '/docs/faq/library',
         },
         {
+          text: 'Updates',
+          collapsed: true,
+          items: [
+            { text: 'Smart updates', link: '/docs/faq/updates/smart' },
+            { text: 'Upcoming', link: '/docs/faq/updates/upcoming' },
+          ],
+        },
+        {
           text: 'Browse',
           link: '/docs/faq/browse/',
           collapsed: true,
